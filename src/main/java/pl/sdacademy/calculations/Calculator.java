@@ -5,14 +5,17 @@ import pl.sdacademy.exceptions.DivisionByZeroException;
 public class Calculator {
 
     public Double add(final Double first, final Double second) {
+
         return first + second;
     }
 
-    public Double subtract(final Double minuend, final Double subtrahend) {
+    public Double subtract(final Double minuend, final Double subtrahend)
+    {
         return minuend - subtrahend;
     }
 
     public Double multiply(final Double first, final Double second) {
+
         return first * second;
     }
 

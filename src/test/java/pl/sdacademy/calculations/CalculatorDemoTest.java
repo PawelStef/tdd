@@ -17,10 +17,12 @@ class CalculatorDemoTest {
     }
 
     @Test
+    @DisplayName("nowaNazwaMordeczki")
     void shouldMultiplyValues() {
         final Double value1 = 2.0;
         final Double value2 = 3.1;
         final Double expectedResult = 6.2;
+
 
         final Double multiplicationResult = calculator.multiply(value1, value2);
 
@@ -28,6 +30,7 @@ class CalculatorDemoTest {
     }
 
     @Test
+    @Disabled
     void shouldSumValues() {
         final Double value1 = 2.5;
         final Double value2 = 3.8;

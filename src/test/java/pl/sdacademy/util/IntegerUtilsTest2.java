@@ -10,6 +10,7 @@ class IntegerUtilsTest2 {
 
     @Test
     void zeroShouldBeEven() {
+
         assertThat(integerUtils.isEven(0)).isTrue();
     }
 
